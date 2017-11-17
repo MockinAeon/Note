@@ -43,7 +43,7 @@ Meteor.methods({
     new SimpleSchema ({
       _id: {
         type: String,
-        mim: 1
+        min: 1
       },
       title: {
         type: String,
